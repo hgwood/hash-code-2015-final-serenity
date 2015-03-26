@@ -21,8 +21,8 @@
     }
   ],
   "scripts": {
-    "start": "node index.js",
-    "test": "node test/test.js",
+    "start": "node src/index.js",
+    "test": "node src/test/test.js",
     "lint": "eslint *.js"
   },
   "dependencies": {
