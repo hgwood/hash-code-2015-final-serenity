@@ -1,0 +1,36 @@
+{
+  "name": "hash-code-2015-final-serenity",
+  "version": "1.0.0",
+  "description": "Serenity team's contribution to Google's Hash Code 2015 Final Round",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hgwood/hash-code-2015-final-serenity.git"
+  },
+  "contributors": [
+    {
+      "name": "Julien Landuré",
+      "email": "jujujuz@gmail.com"
+    },
+    {
+      "name": "Germain Potet",
+      "email": "gpotet@gmail.com"
+    },
+    {
+      "name": "Hugo Wood",
+      "email": "hx4.5@free.fr"
+    }
+  ],
+  "scripts": {
+    "start": "node index.js",
+    "test": "node test/test.js",
+    "lint": "eslint *.js"
+  },
+  "dependencies": {
+    "bluebird": "2.9.14",
+    "lodash": "3.6.0"
+  },
+  "devDependencies": {
+    "eslint": "0.17.1",
+    "tape": "3.5.0"
+  }
+}
