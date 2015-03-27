@@ -14,15 +14,9 @@ test("ça parccourre", function(t) {
     t.deepEqual(findMyBestPartAround({
         nrows: 3,
         ncols: 8,
-        minHam: 2,
+        minHam: 1,
         maxSize: 2,
         pizza: sample
-    }, 0, 0), {
-        nrows: 3,
-        ncols: 4,
-        minHam: 2,
-        maxSize: 4,
-        pizza: [[false, true, false, true], [true, false, false, true], [false, true, true, true]]
-    });
+    }, 0, 0), { bottom: 0, left: 0, right: 1, top: 0 });
     t.end();
 });
