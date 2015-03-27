@@ -1,7 +1,7 @@
 "use strict";
 
 var fs = require("fs");
-var solve = require("./solve");
+var solve = require("solve");
 
 var inputFile = process.argv[2] || "./input.txt";
 var outputFile = process.argv[3] || "./output.txt";
