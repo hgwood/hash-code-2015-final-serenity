@@ -8,3 +8,4 @@ test("this is a dummy test", function(t) {
 });
 
 require("./parse.test.js");
+require("./unparse.test.js");
