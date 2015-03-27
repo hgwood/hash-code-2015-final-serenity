@@ -7,5 +7,6 @@ test("this is a dummy test", function(t) {
   t.end();
 });
 
-require("./parse.test.js");
-require("./unparse.test.js");
+/*require("./parse.test.js");
+require("./unparse.test.js");*/
+require("./eval.test.js");
