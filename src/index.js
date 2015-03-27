@@ -2,7 +2,7 @@
 
 var highland = require("highland");
 var toStream = require("highland-tostream-reducer");
-var solve = require("./solve");
+var solve = require("solve");
 
 highland(process.stdin)
   .invoke("toString")
