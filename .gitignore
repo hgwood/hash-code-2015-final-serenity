@@ -32,4 +32,4 @@ build/Release
 
 *.zip
 
-/output.txt
+/output*.txt
