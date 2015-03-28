@@ -21,13 +21,12 @@
     }
   ],
   "scripts": {
-    "start": "cat input.txt | node src/index.js > output.txt",
+    "start": "node src/index.js",
     "test": "node src/test/test.js",
     "lint": "eslint *.js"
   },
   "dependencies": {
     "bluebird": "2.9.14",
-    "highland": "2.4.0",
     "lodash": "3.6.0"
   },
   "devDependencies": {
