@@ -8,7 +8,7 @@ var outputFile = process.argv[3] || "./output.txt";
 
 fs.readFile(inputFile, function(readFileErr, input) {
   if (readFileErr) throw readFileErr;
-  var output = solve(input);
+  var output = solve(input.toString());
   fs.writeFile(outputFile, output, function(writeFileErr) {
     if (writeFileErr) throw writeFileErr;
   });
