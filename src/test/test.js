@@ -35,6 +35,12 @@ test("parse", function(t) {
 });
 
 test("unparse", function(t) {
-  t.equal(unparse({}), "[object Object]");
+  /* eslint-disable no-multi-spaces */
+  /* eslint-disable space-in-brackets */
+  t.equal(unparse([
+    [ 1,  0, -1,  0],
+    [ 0,  0,  0,  1],
+    [-1, -1,  1,  0]
+  ]), "1 0 -1 0\n0 0 0 1\n-1 -1 1 0");
   t.end();
 });
